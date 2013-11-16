@@ -1,0 +1,26 @@
+{
+    "name": "identityonly/identityonly",
+    "description": "Unified IdentityOnly installation",
+    "homepage": "http://identityonly.com",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.identityonly.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.2.5",
+        "identityonly/identity-mta": "dev-master"
+    },
+    "require-dev": {
+        "zendframework/zend-developer-tools": "dev-master"
+    },
+    "extra": {
+        "installer-paths": {
+            "modules/IdentityMTA": [
+                "identityonly/identitymta"
+            ]
+        }
+    }
+}
