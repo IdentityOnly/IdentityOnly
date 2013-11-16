@@ -19,7 +19,7 @@
     "extra": {
         "installer-paths": {
             "modules/IdentityMTA": [
-                "identityonly/identitymta"
+                "identityonly/identity-mta"
             ]
         }
     }
