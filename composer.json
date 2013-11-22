@@ -15,5 +15,12 @@
     },
     "require-dev": {
         "zendframework/zend-developer-tools": "dev-master"
+    },
+    "extra": {
+        "installer-paths": {
+            "module/IdentityMTA": [
+                "identityonly/identity-mta"
+            ]
+        }
     }
 }
