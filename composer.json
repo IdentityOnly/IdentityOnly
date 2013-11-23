@@ -12,7 +12,8 @@
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.2.5",
         "identityonly/identity-mta": "dev-master",
-        "identityonly/identity-common": "dev-master"
+        "identityonly/identity-common": "dev-master",
+        "identityonly/identity-processor": "dev-master"
     },
     "require-dev": {
         "zendframework/zend-developer-tools": "dev-master"
@@ -24,6 +25,9 @@
             ],
             "module/IdentityCommon": [
                 "identityonly/identity-common"
+            ],
+            "module/IdentityProcessor": [
+                "identityonly/identity-processor"
             ]
         }
     }

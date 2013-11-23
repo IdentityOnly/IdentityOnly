@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c6a08bcf916a1f9f6ae41823fcf48ed2",
+    "hash": "b928f0737accb13452f62cc37b97db07",
     "packages": [
         {
             "name": "composer/installers",
@@ -791,17 +791,64 @@
             "time": "2013-11-12 12:40:13"
         },
         {
+            "name": "hellogerard/jobby",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hellogerard/jobby.git",
+                "reference": "57d8970cd7a6f9b54e3521911dd54cdf6ff75249"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hellogerard/jobby/zipball/57d8970cd7a6f9b54e3521911dd54cdf6ff75249",
+                "reference": "57d8970cd7a6f9b54e3521911dd54cdf6ff75249",
+                "shasum": ""
+            },
+            "require": {
+                "mtdowling/cron-expression": "1.0.x",
+                "php": ">=5.3.0",
+                "swiftmailer/swiftmailer": "~4.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Jobby": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard Sychay",
+                    "email": "hellogerard@gmail.com",
+                    "homepage": "https://github.com/hellogerard"
+                },
+                {
+                    "name": "Michael Contento",
+                    "homepage": "https://github.com/michaelcontento"
+                }
+            ],
+            "description": "Manage all your cron jobs without modifying crontab. Handles locking, logging, error emails, and more.",
+            "homepage": "https://github.com/hellogerard/jobby",
+            "time": "2013-05-07 21:52:21"
+        },
+        {
             "name": "identityonly/identity-common",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/IdentityOnly/IdentityCommon.git",
-                "reference": "62e559227771007230b328fda87dbc0c19b316e3"
+                "reference": "ff1821bd6560f1a5883da48f0a1e8e9f3f14740c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IdentityOnly/IdentityCommon/zipball/62e559227771007230b328fda87dbc0c19b316e3",
-                "reference": "62e559227771007230b328fda87dbc0c19b316e3",
+                "url": "https://api.github.com/repos/IdentityOnly/IdentityCommon/zipball/ff1821bd6560f1a5883da48f0a1e8e9f3f14740c",
+                "reference": "ff1821bd6560f1a5883da48f0a1e8e9f3f14740c",
                 "shasum": ""
             },
             "require": {
@@ -820,7 +867,7 @@
                 "source": "https://github.com/IdentityOnly/IdentityCommon/tree/master",
                 "issues": "https://github.com/IdentityOnly/IdentityCommon/issues"
             },
-            "time": "2013-11-23 21:10:37"
+            "time": "2013-11-23 22:42:57"
         },
         {
             "name": "identityonly/identity-mta",
@@ -828,12 +875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/IdentityOnly/IdentityMTA.git",
-                "reference": "3e4a1cd3b80274c526e6921028f7307efe20ffc6"
+                "reference": "fd3128073ae699f786ea3283d03f9bb098d856f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IdentityOnly/IdentityMTA/zipball/3e4a1cd3b80274c526e6921028f7307efe20ffc6",
-                "reference": "3e4a1cd3b80274c526e6921028f7307efe20ffc6",
+                "url": "https://api.github.com/repos/IdentityOnly/IdentityMTA/zipball/fd3128073ae699f786ea3283d03f9bb098d856f3",
+                "reference": "fd3128073ae699f786ea3283d03f9bb098d856f3",
                 "shasum": ""
             },
             "require": {
@@ -851,7 +898,129 @@
                 "source": "https://github.com/IdentityOnly/IdentityMTA/tree/master",
                 "issues": "https://github.com/IdentityOnly/IdentityMTA/issues"
             },
-            "time": "2013-11-23 21:49:49"
+            "time": "2013-11-23 22:43:30"
+        },
+        {
+            "name": "identityonly/identity-processor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IdentityOnly/IdentityProcessor.git",
+                "reference": "60dde2dff732b28062bc3582d526ad0d1067dafc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IdentityOnly/IdentityProcessor/zipball/60dde2dff732b28062bc3582d526ad0d1067dafc",
+                "reference": "60dde2dff732b28062bc3582d526ad0d1067dafc",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hellogerard/jobby": "v2.0.2"
+            },
+            "type": "zend-module",
+            "authors": [
+                {
+                    "name": "Justin Martin",
+                    "email": "frozenfire@thefrozenfire.com"
+                }
+            ],
+            "description": "Message processor for IdentityOnly",
+            "support": {
+                "source": "https://github.com/IdentityOnly/IdentityProcessor/tree/master",
+                "issues": "https://github.com/IdentityOnly/IdentityProcessor/issues"
+            },
+            "time": "2013-11-23 23:32:21"
+        },
+        {
+            "name": "mtdowling/cron-expression",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mtdowling/cron-expression.git",
+                "reference": "a47ac8d5ec15049013792401af5a4d13e3dbe7f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/a47ac8d5ec15049013792401af5a4d13e3dbe7f6",
+                "reference": "a47ac8d5ec15049013792401af5a4d13e3dbe7f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Cron": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+            "keywords": [
+                "cron",
+                "schedule"
+            ],
+            "time": "2013-11-23 19:48:39"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v4.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "ae540bed1079c07aa12e9e62d9d8d4fc49bbdff2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/ae540bed1079c07aa12e9e62d9d8d4fc49bbdff2",
+                "reference": "ae540bed1079c07aa12e9e62d9d8d4fc49bbdff2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Chris Corbyn"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "mail",
+                "mailer"
+            ],
+            "time": "2013-04-11 10:22:09"
         },
         {
             "name": "symfony/console",
@@ -1092,6 +1261,7 @@
     "stability-flags": {
         "identityonly/identity-mta": 20,
         "identityonly/identity-common": 20,
+        "identityonly/identity-processor": 20,
         "zendframework/zend-developer-tools": 20
     },
     "platform": {
