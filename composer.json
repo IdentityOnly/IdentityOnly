@@ -20,6 +20,9 @@
         "installer-paths": {
             "module/IdentityMTA": [
                 "identityonly/identity-mta"
+            ],
+            "module/IdentityCommon": [
+                "identityonly/identity-common"
             ]
         }
     }
