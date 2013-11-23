@@ -11,7 +11,8 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.2.5",
-        "identityonly/identity-mta": "dev-master"
+        "identityonly/identity-mta": "dev-master",
+        "identityonly/identity-common": "dev-master"
     },
     "require-dev": {
         "zendframework/zend-developer-tools": "dev-master"
