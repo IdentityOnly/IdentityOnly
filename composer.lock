@@ -843,12 +843,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/IdentityOnly/IdentityCommon.git",
-                "reference": "ff1821bd6560f1a5883da48f0a1e8e9f3f14740c"
+                "reference": "a0b2e839f9f640b905333d3f06ed943493718210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IdentityOnly/IdentityCommon/zipball/ff1821bd6560f1a5883da48f0a1e8e9f3f14740c",
-                "reference": "ff1821bd6560f1a5883da48f0a1e8e9f3f14740c",
+                "url": "https://api.github.com/repos/IdentityOnly/IdentityCommon/zipball/a0b2e839f9f640b905333d3f06ed943493718210",
+                "reference": "a0b2e839f9f640b905333d3f06ed943493718210",
                 "shasum": ""
             },
             "require": {
@@ -867,7 +867,7 @@
                 "source": "https://github.com/IdentityOnly/IdentityCommon/tree/master",
                 "issues": "https://github.com/IdentityOnly/IdentityCommon/issues"
             },
-            "time": "2013-11-23 22:42:57"
+            "time": "2013-11-24 06:52:23"
         },
         {
             "name": "identityonly/identity-mta",
@@ -875,12 +875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/IdentityOnly/IdentityMTA.git",
-                "reference": "fd3128073ae699f786ea3283d03f9bb098d856f3"
+                "reference": "2da9598b0f8fd22fc9e94f183f2a642bd77f6060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IdentityOnly/IdentityMTA/zipball/fd3128073ae699f786ea3283d03f9bb098d856f3",
-                "reference": "fd3128073ae699f786ea3283d03f9bb098d856f3",
+                "url": "https://api.github.com/repos/IdentityOnly/IdentityMTA/zipball/2da9598b0f8fd22fc9e94f183f2a642bd77f6060",
+                "reference": "2da9598b0f8fd22fc9e94f183f2a642bd77f6060",
                 "shasum": ""
             },
             "require": {
@@ -898,7 +898,7 @@
                 "source": "https://github.com/IdentityOnly/IdentityMTA/tree/master",
                 "issues": "https://github.com/IdentityOnly/IdentityMTA/issues"
             },
-            "time": "2013-11-23 22:43:30"
+            "time": "2013-11-24 06:53:02"
         },
         {
             "name": "identityonly/identity-processor",
@@ -906,12 +906,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/IdentityOnly/IdentityProcessor.git",
-                "reference": "8fc6b237a25b828e77332a5b7c7eef6261d3db27"
+                "reference": "155791140c141b55543987168cb59b723b1e72b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IdentityOnly/IdentityProcessor/zipball/8fc6b237a25b828e77332a5b7c7eef6261d3db27",
-                "reference": "8fc6b237a25b828e77332a5b7c7eef6261d3db27",
+                "url": "https://api.github.com/repos/IdentityOnly/IdentityProcessor/zipball/155791140c141b55543987168cb59b723b1e72b3",
+                "reference": "155791140c141b55543987168cb59b723b1e72b3",
                 "shasum": ""
             },
             "require": {
@@ -930,7 +930,7 @@
                 "source": "https://github.com/IdentityOnly/IdentityProcessor/tree/master",
                 "issues": "https://github.com/IdentityOnly/IdentityProcessor/issues"
             },
-            "time": "2013-11-24 00:34:09"
+            "time": "2013-11-24 06:53:37"
         },
         {
             "name": "mtdowling/cron-expression",
