@@ -9,11 +9,13 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.4.0",
         "zendframework/zendframework": "2.2.5",
         "identityonly/identity-mta": "dev-master",
         "identityonly/identity-common": "dev-master",
-        "identityonly/identity-processor": "dev-master"
+        "identityonly/identity-processor": "dev-master",
+        "identityonly/identity-auth": "dev-master",
+        "identityonly/identity-web": "dev-master"
     },
     "require-dev": {
         "zendframework/zend-developer-tools": "dev-master"
@@ -28,6 +30,12 @@
             ],
             "module/IdentityProcessor": [
                 "identityonly/identity-processor"
+            ],
+            "module/IdentityAuth": [
+                "identityonly/identity-auth"
+            ],
+            "module/IdentityWeb": [
+                "identityonly/identity-web"
             ]
         }
     }

@@ -7,6 +7,8 @@ return array(
         'IdentityCommon',
         'IdentityMTA',
         'IdentityProcessor',
+        'IdentityAuth',
+        'IdentityWeb',
         'ZendDeveloperTools',
     ),
 
