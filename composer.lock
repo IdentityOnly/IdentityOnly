@@ -906,12 +906,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/IdentityOnly/IdentityProcessor.git",
-                "reference": "60dde2dff732b28062bc3582d526ad0d1067dafc"
+                "reference": "8fc6b237a25b828e77332a5b7c7eef6261d3db27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IdentityOnly/IdentityProcessor/zipball/60dde2dff732b28062bc3582d526ad0d1067dafc",
-                "reference": "60dde2dff732b28062bc3582d526ad0d1067dafc",
+                "url": "https://api.github.com/repos/IdentityOnly/IdentityProcessor/zipball/8fc6b237a25b828e77332a5b7c7eef6261d3db27",
+                "reference": "8fc6b237a25b828e77332a5b7c7eef6261d3db27",
                 "shasum": ""
             },
             "require": {
@@ -930,7 +930,7 @@
                 "source": "https://github.com/IdentityOnly/IdentityProcessor/tree/master",
                 "issues": "https://github.com/IdentityOnly/IdentityProcessor/issues"
             },
-            "time": "2013-11-23 23:32:21"
+            "time": "2013-11-24 00:34:09"
         },
         {
             "name": "mtdowling/cron-expression",
