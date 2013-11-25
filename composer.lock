@@ -944,12 +944,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/IdentityOnly/IdentityCommon.git",
-                "reference": "db24639b4ec893a46e1402b84199abf0d7658157"
+                "reference": "b7dcac73952ac466a0fdd642ad94b9af55e7a2a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IdentityOnly/IdentityCommon/zipball/db24639b4ec893a46e1402b84199abf0d7658157",
-                "reference": "db24639b4ec893a46e1402b84199abf0d7658157",
+                "url": "https://api.github.com/repos/IdentityOnly/IdentityCommon/zipball/b7dcac73952ac466a0fdd642ad94b9af55e7a2a2",
+                "reference": "b7dcac73952ac466a0fdd642ad94b9af55e7a2a2",
                 "shasum": ""
             },
             "require": {
@@ -970,7 +970,7 @@
                 "source": "https://github.com/IdentityOnly/IdentityCommon/tree/master",
                 "issues": "https://github.com/IdentityOnly/IdentityCommon/issues"
             },
-            "time": "2013-11-24 23:50:24"
+            "time": "2013-11-25 02:09:27"
         },
         {
             "name": "identityonly/identity-mta",
