@@ -4,6 +4,10 @@ return array(
     'modules' => array(
         'DoctrineModule',
         'DoctrineORMModule',
+        'ZfcBase',
+        'ZfcUser',
+        'ZfcUserDoctrineORM',
+        'BjyAuthorize',
         'IdentityCommon',
         'IdentityMTA',
         'IdentityProcessor',
